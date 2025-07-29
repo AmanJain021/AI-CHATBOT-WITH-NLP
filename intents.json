@@ -1,0 +1,139 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hello!", "Hi there!", "Hey!", "How can I help you today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["Goodbye!", "See you later!", "Have a great day!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful"],
+      "responses": ["You're welcome!", "Glad I could help!", "Anytime!"]
+    },
+    {
+      "tag": "age",
+      "patterns": ["How old are you?", "What's your age?"],
+      "responses": ["I am a computer program, timeless!", "I'm as old as your imagination."]
+    },
+    {
+      "tag": "Help",
+      "patterns": ["How can you help me?", "What can you do?", "Assist me"],
+      "responses": ["I can answer your questions!", "I'm here to help you with information."]
+    },
+    {
+      "tag": "Weather",
+      "patterns": ["How's the weather?", "What's the weather like?", "Tell me about the weather"],
+      "responses": ["I can't provide real-time weather updates.", "Check your local weather service for accurate information."]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What's your name?", "Who are you?"],
+      "responses": ["I am your friendly chatbot!", "You can call me ChatBot."]
+    },
+    {
+      "tag": "default",
+      "patterns": [],
+      "responses": ["Sorry, I didn't understand that.", "Can you rephrase it?"]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Make me laugh", "I need a joke"],
+      "responses": ["Why don't scientists trust atoms? Because they make up everything!", "What do you call fake spaghetti? An impasta!"]
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["I need motivation", "Inspire me", "Give me a motivational quote"],
+      "responses": ["Believe in yourself!", "You are capable of amazing things!", "Keep pushing forward!"]
+    },
+    {
+      "tag": "news",
+      "patterns": ["What's the latest news?", "Tell me the news", "Current events"],
+      "responses": ["I can't provide real-time news updates.", "Check your favorite news source for the latest information."]
+    },
+    {
+      "tag": "music",
+      "patterns": ["Play some music", "I want to listen to music", "Recommend a song"],
+      "responses": ["I can't play music, but I can suggest genres!", "How about some classical music?"]
+    },
+    {
+      "tag": "food",
+      "patterns": ["What's a good recipe?", "Suggest a dish", "I need cooking ideas"],
+      "responses": ["How about trying pasta?", "You could make a salad!"]
+    },
+    {
+      "tag": "travel",
+      "patterns": ["Where should I travel?", "Suggest a travel destination", "I need travel ideas"],
+      "responses": ["How about visiting Paris?", "You might enjoy a trip to Japan!"]
+    },
+    {
+      "tag": "hobby",
+      "patterns": ["What hobbies do you suggest?", "I need a new hobby", "Recommend a hobby"],
+      "responses": ["How about painting?", "You could try gardening!"]
+    },
+    {
+      "tag": "health",
+      "patterns": ["How can I stay healthy?", "Give me health tips", "I need health advice"],
+      "responses": ["Eat a balanced diet!", "Exercise regularly!", "Stay hydrated!"]
+    },
+    {
+      "tag": "technology",
+      "patterns": ["What's new in technology?", "Tell me about tech trends", "I want to know about gadgets"],
+      "responses": ["AI is evolving rapidly!", "Smart home devices are becoming popular!"]
+    },
+    {
+      "tag": "sports",
+      "patterns": ["What's the latest in sports?", "Tell me about sports", "I want sports news"],
+      "responses": ["Check your favorite sports news outlet for updates!", "I can't provide real-time sports news."]
+    },
+    {
+      "tag": "finance",
+      "patterns": ["How can I save money?", "Give me finance tips", "I need budgeting advice"],
+      "responses": ["Create a budget!", "Track your expenses!", "Save a portion of your income!"]
+    },
+    {
+      "tag": "education",
+      "patterns": ["How can I improve my skills?", "Give me study tips", "I need learning resources"],
+      "responses": ["Consider online courses!", "Read books related to your field!", "Practice regularly!"]
+    },
+    {
+      "tag": "relationship",
+      "patterns": ["How can I improve my relationship?", "Give me relationship advice", "I need help with my partner"],
+      "responses": ["Communication is key!", "Spend quality time together!", "Listen to each other!"]
+    },
+    {
+      "tag": "self-care",
+      "patterns": ["How can I practice self-care?", "Give me self-care tips", "I need to relax"],
+      "responses": ["Take time for yourself!", "Engage in activities you enjoy!", "Practice mindfulness!"]
+    },
+    {
+      "tag": "environment",
+      "patterns": ["How can I help the environment?", "Give me eco-friendly tips", "I want to be more sustainable"],
+      "responses": ["Reduce, reuse, recycle!", "Use less plastic!", "Conserve water and energy!"]
+    },
+    {
+      "tag": "history",
+      "patterns": ["Tell me about history", "I want to learn about historical events", "Give me a history lesson"],
+      "responses": ["History is fascinating! What period are you interested in?", "There are many interesting historical events to explore!"]
+    },
+    {
+      "tag": "science",
+      "patterns": ["Tell me about science", "I want to learn about scientific discoveries", "Give me a science fact"],
+      "responses": ["Science helps us understand the world!", "Did you know that water expands when it freezes?"]
+    },
+    {
+      "tag": "art",
+      "patterns": ["Tell me about art", "I want to learn about artists", "Give me an art fact"],
+      "responses": ["Art is a form of expression!", "Vincent van Gogh was a famous artist known for his unique style."]
+    },
+    {
+      "tag": "literature",
+      "patterns": ["Tell me about literature", "I want book recommendations", "Give me a literary quote"],
+      "responses": ["Reading expands your mind!", "One of my favorite quotes is 'To be, or not to be, that is the question.'"]
+    }
+  ]
+}
